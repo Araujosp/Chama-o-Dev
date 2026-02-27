@@ -6,18 +6,21 @@
     box-sizing: border-box;
     font-family: Arial;
 }
+
 :root {
-     /* Paleta Tecnologia & Confiança */
-  --azul-escuro: #0A2647;
-  --azul-medio: #144272;
-  --azul-destaque: #205295;
-  --azul-claro: #2C74B3;
-  --branco: #FFFFFF;
-  --cinza-claro: #F5F5F5;
-  --texto-escuro: #333333; /* para fundos claros */
-  --cor-fundo: #F5F5F5; /* substitua pela sua cor */
-  --cor-texto: #333333;
-  --cor-ciano-claro: #6fd3ff;
+    /* Paleta Tecnologia & Confiança */
+    --azul-escuro: #0A2647;
+    --azul-medio: #144272;
+    --azul-destaque: #205295;
+    --azul-claro: #2C74B3;
+    --branco: #FFFFFF;
+    --cinza-claro: #F5F5F5;
+    --texto-escuro: #333333;
+    /* para fundos claros */
+    --cor-fundo: #F5F5F5;
+    /* substitua pela sua cor */
+    --cor-texto: #333333;
+    --cor-ciano-claro: #6fd3ff;
     --font-montserrat: "montserrat", sans-serif;
     --font-poppins: "poppins", sans-serif;
     --font-inter: "inter", sans-serif;
@@ -27,7 +30,7 @@
     --font-size-texto: 30px;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     outline: none;
@@ -42,9 +45,19 @@ body {
     width: 100%;
     height: 100vh;
     background: linear-gradient(#000, #4cb1dd);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
+}
 
-   
+.icons {
+    height: 70px;
+    width: px;
+}
+
+.nossos_clientes_parceiros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -57,6 +70,7 @@ section {
     height: 80px;
     width: 190px;
 }
+
 .header {
     position: fixed;
     top: 0;
@@ -65,7 +79,7 @@ section {
     z-index: 99;
 }
 
-.header section{
+.header section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -122,12 +136,12 @@ section {
     justify-content: flex-end;
     position: relative;
     bottom: 9rem;
-    right: 4rem;    
+    right: 4rem;
 }
 
 .botoes {
     display: flex;
-    gap: 2rem; 
+    gap: 2rem;
     margin-top: 2rem;
 }
 
@@ -148,7 +162,5 @@ section {
 
 .btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
-
-
