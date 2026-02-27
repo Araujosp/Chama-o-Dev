@@ -32,6 +32,17 @@ body {
     background-repeat:no-repeat;
     /*background-image:linear-gradient(#0000 , #3432c7);*/
 }
+.icons {
+    height: 70px;
+    width: px;
+}
+
+.nossos_clientes_parceiros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ;
+}
 
 .box1{
     text-align: center;
