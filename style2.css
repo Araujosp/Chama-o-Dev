@@ -31,7 +31,6 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +50,6 @@ section {
     z-index: 99;
     border-bottom: var(--border);
 }
-
 
 .navbar-logo {
     width: 200px;
