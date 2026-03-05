@@ -27,7 +27,7 @@
 }
 
 body {
-    background: linear-gradient(#000, #4cb1dd);
+    background: linear-gradient(135deg, #000, #4cb1dd);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -51,15 +51,15 @@ section {
     border-bottom: var(--border);
 }
 
-.navbar-logo {
-    width: 200px;
-    height: auto;
-    position: relative;
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .navbar a {
     margin: 0 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #fff;
 }
 
@@ -141,7 +141,7 @@ section {
     color: var(--cinza-claro);
     font-size: 1.6rem;
     font-weight: 700;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
