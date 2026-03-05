@@ -236,3 +236,96 @@ body {
     transform: scale(1.05);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
+
+/* --- Serviços --- */
+.servicos {
+    margin: 100px 10px;
+}
+.cards_servicos {
+    height: 400px;
+    width: 400px;
+    background: var(--azul-escuro);
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-family: var(--font-poppins);
+    font-weight: 800;
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+
+.frase_servicos {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cards_servicos_image1 {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,2)), url(IMG/chama\ o\ dev1.png);
+    background-size: cover;
+}
+
+.cards_servicos_image2 {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(IMG/dev\ \(2\).png);
+    background-size: cover;
+}
+
+.cards_servicos_image3 {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(IMG/dev\ \(3\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.cards_servicos_image4 {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(IMG/dev\ \(4\).png);
+    background-size: cover;
+}
+
+.cards_servicos_image5 {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(IMG/dev.png);
+    background-size: cover;
+}
+
+.botao_servicos {
+    margin: 5px;
+    height: 50px;
+    width: 120px;
+    background: var(--azul-claro);
+    border-radius: 10px;
+    color: var(--branco);
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.botao_servicos:hover {
+    background: var(--azul-escuro);
+    cursor: pointer;
+}
+
+.conjunto_card_servicos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.titulo_linha_servicos {
+    margin: 25px 0px 25px 5%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--branco);
+}
+
+.linha_titulo {
+    width: 700px;
+    height: 3px;
+    background: var(--branco);
+    border-radius: 5px;
+}
+
+.titulo_servicos {
+    font-size: 55px;
+}
