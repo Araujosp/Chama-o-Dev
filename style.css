@@ -347,7 +347,9 @@ body {
 
 .footer-link{
     text-decoration: none;
+    font-size: 22px;
 }
+
 
 #footer_content {
     background-color: var(--cor-fundoE);
@@ -487,3 +489,4 @@ body {
     color: rgb(3, 135, 153);
     font-size: 50px;
 }
+
