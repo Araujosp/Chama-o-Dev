@@ -470,6 +470,14 @@ body {
     color: #5689d6;
 }
 
+
+.img4 {
+    width: 260px;
+    position: relative;
+    left: 180px;
+    top: 50px;
+}
+
 .content2{
     display:block;
     padding: 20px;
@@ -499,12 +507,5 @@ body {
     margin-bottom: 20px;
     color: rgb(3, 135, 153);
     font-size: 50px;
-}
-
-.img4 {
-    width: 260px;
-    position: relative;
-    left: 180px;
-    top: 50px;
 }
 
