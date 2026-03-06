@@ -48,13 +48,6 @@ body {
 .icons {
     height: 70px;
     width: px;
-    transition: 1.0s;
-    opacity:90%;
-}
-
-.icons:hover{
-    opacity: 100%;
-    transform: translateY(-5px);
 }
 
 .logo {
@@ -66,7 +59,7 @@ body {
     width: 100%;
     padding: 25px;
     padding-right: 35%;
-    position: static;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -180,8 +173,82 @@ body {
 
 .logotipos {
     display: flex;
-    gap: 35px;
+    gap: 15px;
     justify-content: center;
+}
+
+.card-mae{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width:500px;
+    height:800px;
+    background-color:#0f1d2e;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: outset;
+    opacity:0.65;
+    text-align: center;
+    transition: 1s;
+    overflow:hidden ;
+    margin: 30px;
+}
+
+.card-container {
+    text-align: center;
+    padding: 15px;
+}
+
+.card:hover{    
+    opacity:1;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 10px  #05618b;
+}
+.img-card {
+    border-radius:50%;
+    margin-bottom:15px;
+    width: 100%;
+    height: 400px; /* altura fixa pra imagem*/
+    object-fit: cover; /* corta imagem sem distorcer*/
+}
+
+.card-container h1{
+    margin-bottom:10px ;
+    font-size: 30px;
+    color: #4cb1dd;
+}
+
+
+
+.card-container p{
+    font-size:1.3rem;
+    color: #F5F5F5;
+}
+
+.btn-card{
+    margin-top: auto;
+    background: #69c3e6;
+    color: #0d1b2a;
+    padding: 1.0rem 1rem;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 /* --- Serviços --- */
@@ -202,16 +269,7 @@ body {
     align-items: center;
     justify-content: flex-end;
     padding-bottom: 30px;
-    opacity:70%;
-    transition:0.8s;
 }
-
-.cards_servicos:hover{
-    opacity: 100%;
-    transform: translateY(-5px);
-    box-shadow:0px 10px 10px #05618b;
-}
-
 
 .frase_servicos {
     text-transform: uppercase;
@@ -291,6 +349,7 @@ body {
     color: var(--branco)
 }
 
+
 .footer-link{
     text-decoration: none;
     font-size: 22px;
@@ -321,11 +380,17 @@ body {
 
 #footer_social_media2 {
     display: flex;
+}
+
+#img4 {
+    display: flex;
     align-items: center;
     flex-direction: column;
     gap: 1rem;
     margin-top: 1rem;
     color: #F5F5F5;
+    position: relative;
+    left: 170px;
 }
 
 #footer_social_media2 .footer-link {
@@ -393,15 +458,62 @@ body {
 .footer-list {
     display: flex;
     flex-direction: column;
-    gap: 1.75rem;
+    gap: 2rem;
     list-style: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
 
 .footer-list .footer-link {
     color: #F5F5F5;
 }
 
 .footer-list .footer-link:hover{
+<<<<<<< HEAD
     color: var(--cor-ciano-claro)
+=======
+    color: #5689d6;
+}
+
+
+.img4 {
+    width: 260px;
+    position: relative;
+    left: 180px;
+    top: 50px;
+}
+
+.content2{
+    display:block;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 200px;
+    height:250px;
+}
+
+.home-equipe{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.estrela {
+    margin-bottom:15px;
+    width: 100px;
+    filter: invert();
+}
+
+.frase-card{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(3, 135, 153);
+    font-size: 50px;
+>>>>>>> 1d89993fc6b4b97df2f48d74fe73d02650b8ec7c
 }
 
