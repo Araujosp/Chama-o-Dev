@@ -49,12 +49,20 @@ section {
     right: 0;
     z-index: 99;
     border-bottom: var(--border);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.logo-navbar {
+    height: 80px;
+    width: 190px;
 }
 
 .navbar {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
 }
 
 .navbar a {
@@ -84,13 +92,13 @@ section {
 .login-container {
     padding: 40px;
     width: 500px;
-    height: 700px;
+    height: 715px;
     border-radius: 19px;
     box-shadow: 0 0 50px var(--main-color);
     text-align: center;
 }
 
-.logo {
+.title {
     color: var(--main-color);
     font-size: 2.8rem;
     font-weight: 900;
@@ -98,7 +106,7 @@ section {
     margin-bottom: 35px;
 }
 
-.logo span {
+.title span {
     color: #ffffff;
 }
 
@@ -137,7 +145,7 @@ section {
 .btn input {
     margin-top: 30px;
     padding: 10px 9.3rem;
-    background-color: var(--main-color);
+    background-color: #3986a7;
     color: var(--cinza-claro);
     font-size: 1.6rem;
     font-weight: 700;

@@ -57,9 +57,9 @@ body {
 
 .menu {
     width: 100%;
-    padding: 40px;
+    padding: 25px;
     padding-right: 35%;
-    position: fixed;
+    position: static;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,6 +84,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: -10rem;
 }
 
 .title {
@@ -138,6 +139,8 @@ body {
 
 .btn:hover {
     transform: scale(1.05);
+    background-color: #000;
+    color: var(--cor-ciano-claro);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
@@ -164,6 +167,7 @@ body {
 
 .titulo_cliente_parceiro {
     font-family: var(--font-roboto);
+    color: var(--cinza-claro);
     font-weight: 800;
 }
 
@@ -456,7 +460,7 @@ body {
 }
 
 .footer-list .footer-link:hover{
-    color: #7f37c9;
+    color: var(--cor-ciano-claro)
 }
 
 .content2{
