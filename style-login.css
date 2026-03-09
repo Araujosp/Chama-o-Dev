@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(#000, #4cb1dd);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    width: 450px;
+    /* Degradê azul-acinzentado da primeira foto */
+    background: linear-gradient(180deg, #3d5a69 0%, #21303b 100%); 
+    border-radius: 40px; 
+    padding: 50px 45px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+.logo-header {
+    margin-bottom: 20px;
+}
+
+.box h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #ffffff;
+}
+
+.login-label {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+
+.box input[type="email"], 
+.box input[type="password"] {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 20px; /* Bordas menos arredondadas nos campos */
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Links pequenos abaixo da senha */
+.extra-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 0.85rem;
+}
+
+.extra-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.extra-links label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+/* O Botão Branco do Primeiro Estilo */
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn input {
+    margin-top: 40px;
+    width: 180px; /* Botão menor e centralizado */
+    padding: 12px;
+    background-color: #ffffff; /* Branco como na foto */
+    color: #000000; /* Texto preto */
+    font-size: 1.3rem;
+    font-weight: 800;
+    border-radius: 30px; /* Bem arredondado estilo pílula */
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn input:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+}
