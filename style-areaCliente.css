@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    transition:0.2s linear;
+    font-family:"Roboto", sans-serif;
+}
+
+:root {
+    /* Paleta Tecnologia & Confiança */
+    --azul-escuro: #0A2647;
+    --azul-medio: #144272;
+    --azul-destaque: #205295;
+    --azul-claro: #2C74B3;
+    --branco: #FFFFFF;
+    --cinza-claro: #F5F5F5;
+    --texto-escuro: #333333;
+    /* para fundos claros */
+    --cor-fundo: #F5F5F5;
+    /* para fundos escuro */
+    --cor-fundo-preto: #000000;
+    /* substitua pela sua cor */
+    --cor-texto: #333333;
+    --cor-ciano-claro: #6fd3ff;
+    --font-montserrat: "montserrat", sans-serif;
+    --font-poppins: "poppins", sans-serif;
+    --font-inter: "inter", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+    --font-size-titulo: 50px;
+    --font-size-subtitulo: 40px;
+    --font-size-texto: 30px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.menu_lateral {
+    background: var(--cor-fundo-preto);
+    color: var(--branco);
+}
+
+.menu_horizontal {
+    height: 12%;
+    background: var(--cor-ciano-claro);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
