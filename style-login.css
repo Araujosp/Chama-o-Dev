@@ -56,7 +56,7 @@ body {
     margin-left: 5px;
 }
 
-.box input[type="email"], 
+.box input[type="email"], /* seletor de atributo */
 .box input[type="password"] {
     width: 100%;
     padding: 15px 20px;
