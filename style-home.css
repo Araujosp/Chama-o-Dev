@@ -405,7 +405,7 @@ body {
     margin-top: 1rem;
     color: #F5F5F5;
     position: relative;
-    left: 170px;
+    left: 400px;
 }
 
 #footer_social_media2 .footer-link {
@@ -495,7 +495,7 @@ body {
     width: 260px;
     position: relative;
     left: 180px;
-    top: 50px;
+    top: 30px;
 }
 
 .content2{
@@ -527,4 +527,22 @@ body {
     margin-bottom: 20px;
     color: rgb(3, 135, 153);
     font-size: 50px;
+}
+
+.title2 {
+    font-family: var(--font-poppins);
+    font-size: 15px;
+    color: #4cb1dd;
+    text-transform: uppercase;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+#img5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    position: relative;
 }
