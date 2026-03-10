@@ -15,6 +15,7 @@
     --azul-medio: #144272;
     --azul-destaque: #205295;
     --azul-claro: #2C74B3;
+    --cinza-claro2: rgb(198, 200, 207);
     --branco: #FFFFFF;
     --cinza-claro: #F5F5F5;
     --texto-escuro: #333333;
@@ -45,12 +46,48 @@ body {
     color: var(--branco);
 }
 
+nav {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logotipo_menu_lateral {
+    margin: 20px;
+    height: 80px;
+}
+
+.linha_menu_lateral {
+    height: 1px;
+    width: 100%;
+    background: var(--cinza-claro);
+}
+
+.icons_menu_lateral {
+    height: 45px;
+}
+
+a {
+    padding: 8px;
+    height: 60px;
+    border-radius: 10px;
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a:hover {
+    background: var(--cor-ciano-claro);
+}
+
 main {
     width: 100%;
 }
 
 .menu_horizontal {
-    padding: 35px;
+    padding: 12px;
     height: 12%;
     background: var(--cor-ciano-claro);
     display: flex;
@@ -58,8 +95,46 @@ main {
     justify-content: space-between;
 }
 
+.subtitulo_menu_horizontal {
+    font-weight: 300;
+}
+
+.menu_icones {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icone_usuario_horizontal {
+    width: 55px;
+    height: 55px;
+    padding: 5px;
+    background: var(--cinza-claro);
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.icons_menu_horizontal {
+    height: 45px;
+}
+
 .area_conteudo {
+    height: 85vh;
     margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ------ Aba Configurações ------*/
+.dados_usuario {
+    display: flex;
+    gap: 15px;
 }
 
 .icone_usuario {
@@ -82,7 +157,7 @@ main {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
 }
 
 .perfil_usuario form {
@@ -92,5 +167,147 @@ main {
 
 .cargo_usuario {
     font-weight: 300;
+}
+
+.formularios_usuario {
+    display: flex;
+    gap: 25px;
+ 
+}
+
+.campo_informacoes_usuario {
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: solid 1px var(--cor-fundo-preto);
+}
+
+.informations_usuario {
+    margin-top: 20px;
+}
+
+.btn_salvar {
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid var(--cor-fundo-preto);
+    font-weight: 500; 
+}
+
+.btn_salvar:hover {
+    background: var(--azul-escuro);
+    color: var(--cinza-claro);
+    cursor: pointer;
+}
+
+.salvar_alteracao {
+    margin: 10px 0px 0px 50%;
+    background-color: var(--cor-ciano-claro);
+}
+
+.titulos_usuario {
+    font-size: 25px;
+}
+
+.formulario_senha {
+    display: flex;
+    gap: 25px;
+}
+
+.campo_seguranca {
+    justify-content: flex-end;
+}
+
+/* ------ Aba Projetos ------*/
+
+.projetos {
+    margin: 15px;
+    padding: 15px 25px;
+    height: 170px;
+    width: 98%;
+    background: var(--cinza-claro);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.projeto_tecnologia {
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+}
+
+.tecnologia_projeto {
+    width: 65px;
+    height: 28px;
+    background: var(--cinza-claro2);
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prazo {
+    color: var(--azul-destaque);
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.titulo_projeto {
+    font-size: 25px;
+}
+
+.subtitulo_projeto, .prazo_projeto{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.prazo_projeto {
+    font-size: 15px;
+}
+
+
+/* ------ Aba Suporte ------*/
+
+.suporte {
+    margin: 15px;
+    padding: 15px 25px;
+    height: 170px;
+    width: 98%;
+    background: var(--cinza-claro);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.suporte_status {
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.suporte_status h2 {
+    font-weight: 200;
+}
+
+.categorias {
+    display: flex;
+    gap: 25px;
+}
+
+.categoria_relevancia {
+    width: 70px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
