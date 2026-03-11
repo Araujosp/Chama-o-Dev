@@ -623,14 +623,27 @@ body {
 
 #img5 {
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     background-image:url("IMG/conversaDEV.png"); 
     background-size:cover;
-    background-position:center;
+    background-position:bottom;
     background-repeat: no-repeat;
-    display:flex;
-    align-items:center;
-    justify-content:flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
+<<<<<<< HEAD
 >>>>>>> 0c16233dea5a08d7931a49c7dbc0fa82224568a3
+=======
+.conversar {
+    font-size: 100px;
+    color: var(--branco);
+}
+
+.btn_especialista {
+    font-size: 50px;
+    border-radius: 10px;
+}
+>>>>>>> d0469a9d424aafae001a00fc0c5d32cd68dcd22c
