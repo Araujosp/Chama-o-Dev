@@ -42,8 +42,8 @@ body {
 }
 
 .menu_lateral {
-    background: var(--cor-fundo-preto);
-    color: var(--branco);
+ background: linear-gradient(#000, #4cb1dd);    
+ color: var(--branco);
 }
 
 nav {

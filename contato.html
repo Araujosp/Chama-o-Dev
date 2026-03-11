@@ -1,49 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-contato.css">
     <title>Suporte | Chama o Dev</title>
+
+    <link rel="stylesheet" href="style-contato.css">
     <link rel="icon" href="IMG/icon_chama_o_dev.png" type="image/png">
 </head>
 
 <body>
+
     <header class="menu">
+
         <img src="IMG/chama_o_dev-removebg-preview.png" class="logo-navbar">
+
         <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="services.html">Serviços</a>
             <a href="nossaequipe.html">Nossa Equipe</a>
-            <a href="./contato.html">Fale Conosco</a>
         </nav>
+
     </header>
 
+
     <div class="login-container">
-        <h1 class="title"><span> FALE COM O </span> <br> DEV</h1>
 
-        <form class="login-form">
-            <label for="username">Nome</label>
-            <input type="text" id="username" placeholder="Digite seu Nome">
+        <h1 class="title">
+            <span>FALE COM O</span><br>
+            DEV
+        </h1>
 
-            <label for="E-mail">E-mail</label>
-            <input type="email" id="email" placeholder="Digite sua email">
+        <form class="form-suporte">
 
-            <label for="Telefone">Telefone (opcional)</label>
-            <input type="tel" id="telefone" placeholder="(11) 99999-9999">
+            <div class="field">
+                <label for="username">Nome Completo</label>
+                <input type="text" id="username" placeholder="Digite seu nome">
+            </div>
 
-            <label for="assunto">Assunto</label>
-            <input type="text" id="assunto" placeholder="Fale sobre qual é o assunto">
+            <div class="field">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite seu email">
+            </div>
 
-            <label for="duvida">Duvida</label>
-            <input type="text" id="duvida" placeholder="Fale sobre sua duvida">
+            <div class="field">
+                <label for="telefone">Telefone (opcional)</label>
+                <input type="tel" id="telefone" placeholder="(11) 99999-9999">
+            </div>
+
+            <div class="field">
+                <label for="assunto">Assunto</label>
+                <select>
+                    <option>Criação de site</option>
+                    <option>Desenvolvimento de sistema</option>
+                    <option>Manutenção do site</option>
+                    <option>Erro ou problema técnico</option>
+                    <option>Outro assunto</option>
+                </select>
+            </div>
+
+            <div class="field field-big">
+                <label for="duvida">Dúvida</label>
+                <textarea id="duvida" placeholder="Fale sobre sua dúvida"></textarea>
+            </div>
+
+            <div class="btn">
+
+                <a href="contato2.html">
+                    Enviar
+                </a>
+
+            </div>
+
         </form>
 
-        <form class="btn" action="./contato2.html">
-            <input type="submit" value="Enviar">
-        </form>
     </div>
+
 </body>
 
 </html>
