@@ -14,14 +14,12 @@
     --azul-escuro: #0A2647;
     --azul-medio: #144272;
     --azul-destaque: #205295;
-    --azul-claro: #2C74B3;
+    --azul-claro: #b7ddff;
     --cinza-claro2: rgb(115, 123, 140);
-    --cinza-escuro: #e4e4e4;
+    --cinza-escuro: #a0a0a0;
     --branco: #FFFFFF;
-    --cinza-claro: #F5F5F5;
+    --cinza-claro: #c5c3c3;
     --texto-escuro: #333333;
-    --vermelho-escuro: #ff0000;
-    --vermelhor-claro: #e6a7a7;
     --verde-escuro: #008600;
     --verde-claro: #77ff77;
     --amarelo-escuro: #9da800;
@@ -112,7 +110,7 @@ main {
     align-items: center;
 }
 
-.icone_usuario_horizontal {
+.icone_usuario_horizontal a{
     width: 55px;
     height: 55px;
     padding: 5px;
@@ -124,10 +122,34 @@ main {
     align-items: center;
     justify-content: center;
     font-weight: 900;
+    color: var(--cor-fundo-preto);
 }
 
 .icons_menu_horizontal {
     height: 45px;
+}
+
+.image_content:hover {
+    cursor: pointer;
+}
+
+.notificacoes {
+    width: 170px;
+    height: 75px;
+    background: var(--branco);
+    border-radius: 5px;
+    border: 1px solid var(--cor-texto);
+    display: flex;
+    position:absolute;
+    right: 75px;
+    display: none;
+}
+
+.image_content:hover .notificacoes {
+    display: block;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .area_conteudo {
@@ -160,7 +182,7 @@ main {
 .perfil_usuario {
     margin: 10px;
     padding: 30px;
-    background: var(--cinza-claro);
+    border: 1px solid var(--cinza-claro);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -225,7 +247,37 @@ main {
 }
 
 .campo_seguranca {
+    display: flex;
     justify-content: flex-end;
+}
+
+.area_popup {
+    display: flex;
+    justify-content: center;
+}
+
+.popup {
+    width: 370px;
+    height: 200px;
+    padding: 18px;
+    background: var(--azul-escuro);
+    border-radius: 10px;
+    color: var(--branco);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn_voltar_senha {
+    height: 50px;
+    width: 90px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.btn_voltar_senha:hover {
+    cursor: pointer;
 }
 
 /* ------ Aba Projetos ------*/
@@ -235,11 +287,56 @@ main {
     padding: 15px 25px;
     height: 170px;
     width: 98%;
-    background: var(--cinza-claro);
+    border: 1px solid var(--cinza-claro);
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projeto_all {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.titulo_status {
+    display: flex;
+    flex-direction: row;
+}
+
+.status {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 700;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status_concluido {
+    background: var(--verde-claro);
+    color: var(--verde-escuro);
+    border: 1px solid var(--verde-escuro);
+}
+
+.status_andamento {
+    width: 150px;
+    background: var(--azul-claro);
+    color: var(--azul-escuro);
+    border: 1px solid var(--azul-escuro);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.status_revisao {
+    background: var(--amarelo-claro);
+    color: var(--amarelo-escuro);
+    width: 80px;
+    border: 1px solid var(--amarelo-escuro);
+    border-radius: 10px;
+    font-weight: 700;
 }
 
 .projeto_tecnologia {
@@ -251,8 +348,9 @@ main {
 .tecnologia_projeto {
     width: 65px;
     height: 28px;
-    background: var(--cinza-claro2);
+    background: var(--cinza-claro);
     text-align: center;
+    font-weight: 500;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -279,6 +377,41 @@ main {
     font-size: 15px;
 }
 
+.btn_detalhes {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-weight: 700;
+}
+
+.btn_detalhes:hover {
+    background: var(--cor-ciano-claro);
+    cursor: pointer;
+}
+
+.btn_detalhes:active{
+    background: var(--azul-escuro);
+    color: var(--branco);
+}
+.btn_detalhes:active .icon_upload_branco{
+    color: var(--branco);
+    display: block;
+}
+
+.icon_upload_branco {
+    position: absolute;
+    right: 122px;
+    display: none;
+}
+
+.icon_upload {
+    width: 25px;
+    height: 25px;
+}
 
 /* ------ Aba Suporte ------*/
 
@@ -287,7 +420,7 @@ main {
     padding: 15px 25px;
     height: 130px;
     width: 98%;
-    background: var(--cinza-escuro);
+    border: 1px solid var(--cinza-claro);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -355,25 +488,29 @@ main {
     font-weight: 400;
 }
 
-.relevancia_baixo {
+.relevancia_finalizado {
     background: var(--verde-claro);
     color: var(--verde-escuro);
     border: 1px solid var(--verde-escuro);
     border-radius: 10px;
+    font-weight: 700;
 }
 
-.relevancia_alta {
-    background: var(--vermelhor-claro);
-    color: var(--vermelho-escuro);
-    border: 1px solid var(--vermelho-escuro);
+.relevancia_aberto {
+    background: var(--azul-claro);
+    color: var(--azul-escuro);
+    border: 1px solid var(--azul-escuro);
     border-radius: 10px;
+    font-weight: 700;
 }
 
-.relevancia_medio {
+.relevancia_aguardando {
     background: var(--amarelo-claro);
     color: var(--amarelo-escuro);
+    width: 80px;
     border: 1px solid var(--amarelo-escuro);
     border-radius: 10px;
+    font-weight: 700;
 }
 
 .balao_suporte {

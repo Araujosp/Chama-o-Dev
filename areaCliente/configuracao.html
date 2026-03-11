@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Configuração | Chama o Dev</title>
     <link rel="stylesheet" href="../style-areaCliente.css">
     <link rel="icon" href="../IMG/icon_chama_o_dev.png" type="image/png">
 </head>
@@ -25,8 +25,11 @@
                 <h2 class="subtitulo_menu_horizontal">Bem Vindo, Allan 👋</h2>
             </div>
             <div class="menu_icones">
-                <img src="../icons/Bell_pin_fill.png" alt="icone_sino" class="icons_menu_horizontal">
-                <div class="icone_usuario_horizontal">AL</div>
+                 <div class="image_content">
+                    <img src="../icons/Bell_pin_fill.png" alt="icone_sino" class="icons_menu_horizontal">
+                    <div class="notificacoes"><p>Você não tem notificações</p></div>
+                </div>
+                <div class="icone_usuario_horizontal"><a href="configuracao.html">AL</a></div>
             </div>
         </div>
         <section class="area_conteudo">
@@ -42,15 +45,19 @@
                 <div class="formularios_usuario">
                     <form action="">
                         <label for="" class="informations_usuario">Nome</label>
-                        <input type="text" class="campo_informacoes_usuario" placeholder="Insira seu nome">
+                        <input type="text" class="campo_informacoes_usuario" value="Allan Santos"  placeholder="Insira seu nome">
                         <label for="" class="informations_usuario">Telefone</label>
-                        <input type="tel" class="campo_informacoes_usuario" placeholder="Insira seu telefone">
+                        <input type="tel" class="campo_informacoes_usuario" value="(11) 98999-9999" placeholder="Insira seu telefone">
+                        <label for="" class="informations_usuario">Cargo</label>
+                        <input type="text" class="campo_informacoes_usuario" value="Diretor de Marketing" placeholder="Insira seu cargo">
                     </form>
-                    <form action="">
+                    <form action="alteracoesRealizado.html">
                         <label for="" class="informations_usuario">E-mail</label>
-                        <input type="email" class="campo_informacoes_usuario" placeholder="Adicione seu e-mail">
+                        <input type="email" class="campo_informacoes_usuario" value="allan@oscorp.com" placeholder="Adicione seu e-mail">
                         <label for="" class="informations_usuario">Empresa</label>
-                        <input type="text" class="campo_informacoes_usuario" placeholder="Adicione o nome da empresa">
+                        <input type="text" class="campo_informacoes_usuario" value="Oscorp Brasil" placeholder="Adicione o nome da empresa">
+                        <label for="" class="informations_usuario">Data de Nascimento (Opcional)</label>
+                        <input type="date" class="campo_informacoes_usuario" value="01/01/2222">
                         <input type="submit" class="btn_salvar salvar_alteracao" value="Salvar Alterações"> 
                     </form>
                 </div>
@@ -67,7 +74,9 @@
                         <input type="password" class="campo_informacoes_usuario" placeholder="●●●●●●●●">
                     </form>
                 </div>
-                <input type="submit" class="btn_salvar" value="Alterar Senha">
+                <form action="senhaRealizado.html">
+                    <input type="submit" class="btn_salvar" value="Alterar Senha">
+                </form>
             </div>
         </section>
     </main>

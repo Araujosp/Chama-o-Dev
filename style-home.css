@@ -118,6 +118,7 @@ body {
 
 
 .title-box{
+    margin: 35px 0px 35px 0px;
     font-family: var(--font-poppins);
     font-size: 52px;
     color: #4cb1dd;
@@ -125,7 +126,6 @@ body {
     line-height: 1.4;
     white-space: nowrap;
     text-align: center;
-    margin-bottom: 30px;
 }
 
 .title-box span {
@@ -198,6 +198,7 @@ body {
 
 /* --- Section Clientes Parceiros --- */
 .nossos_clientes_parceiros {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
