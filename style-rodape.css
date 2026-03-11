@@ -1,13 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    text-decoration:none;
-    transition:0.2s linear;
-    font-family:"Roboto", sans-serif;
-}
 
 :root {
     /* Paleta Tecnologia & Confiança */
@@ -24,6 +16,10 @@
     --cor-fundoE: #000000;
     /* substitua pela sua cor */
     --cor-texto: #333333;
+    /*email*/
+    --cor-email: #EA4335;
+    /*facebook*/
+    --cor-telefone: #205295;
     --cor-ciano-claro: #6fd3ff;
     --font-montserrat: "montserrat", sans-serif;
     --font-poppins: "poppins", sans-serif;
@@ -34,155 +30,10 @@
     --font-size-texto: 30px;
 }
 
-body{
-    background:linear-gradient(#000,#4cb1dd);
-    background-repeat:no-repeat;
+footer{
+    width: 100%;
 }
 
-/* MENU */
-
-.menu{
-    width:100%;
-    padding:40px;
-    padding-right:35%;
-    position:static;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-}
-
-.logo{
-    height:80px;
-    width:190px;
-}
-
-.navbar a{
-    margin:0 2rem;
-    font-size:1.4rem;
-    color:#fff;
-}
-
-.navbar a:hover{
-    color:#4cb1dd;
-    border-bottom:0.1rem solid #F5F5F5;
-    padding-bottom:0.5rem;
-    font-size:1.6rem;
-}
-
-/* SEÇÃO EQUIPE */
-
-.home-equipe{
-    margin-top:-8rem;
-    width:100%;
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
-
-.content2{
-    padding:20px;
-    margin-top:120px;
-}
-
-.title{
-    font-size:40px;
-    color:#4cb1dd;
-    text-transform:uppercase;
-    text-align:center;
-}
-
-/* CARDS */
-
-.card-mae{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-wrap:wrap;
-}
-
-.card{
-    width:330px;
-    height:550px;
-    background:#0f1d2e;
-    padding:18px;
-    border-radius:20px;
-    border-style:outset;
-    opacity:0.65;
-    text-align:center;
-    transition:1s;
-    overflow:hidden;
-    margin:20px;
-}
-
-.card:hover{
-    opacity:1;
-    transform:translateY(-5px);
-    box-shadow:0px 10px 10px #05618b;
-}
-
-.card-container{
-    text-align:center;
-    padding:10px;
-}
-
-.img-card{
-    border-radius:50%;
-    margin-bottom:12px;
-    width:100%;
-    height:250px;
-    object-fit:cover;
-}
-
-.card-container h1{
-    margin-bottom:8px;
-    font-size:22px;
-    color:#4cb1dd;
-}
-
-.card-container p{
-    font-size:1rem;
-    color:#F5F5F5;
-}
-
-/* FRASE */
-
-.frase-card{
-    font-weight:bold;
-    margin-top:15px;
-    margin-bottom:15px;
-    color:rgb(3,135,153);
-    font-size:22px;
-}
-
-/* ESTRELAS */
-
-.estrela{
-    margin-bottom:10px;
-    width:70px;
-    filter:invert();
-}
-
-/* BOTÃO */
-
-.btn-card{
-    background:#69c3e6;
-    color:#0d1b2a;
-    padding:0.7rem 1.2rem;
-    font-size:18px;
-    font-weight:500;
-    border-radius:25px;
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    margin-top:10px;
-}
-
-.btn-card:hover{
-    transform:scale(1.05);
-    box-shadow:0 10px 25px rgba(0,0,0,0.2);
-}
 .footer {
     width: 100%;
     color: var(--branco)
@@ -312,12 +163,4 @@ body{
 .footer-list .footer-link:hover{
     color: var(--cor-ciano-claro);
     color: #5689d6;
-}
-
-
-.img4 {
-    width: 260px;
-    position: relative;
-    left: 180px;
-    top: 50px;
 }

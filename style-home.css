@@ -635,32 +635,40 @@ body {
 
 
 .btn_especialista {
+    height: 70px;
     display: flex;
     font-weight: 300px;
-    font-size: 20px;
+    font-size: 23px;
     border-radius: 60px;
     background: #ffffff;
     color: #0d1b2a;
-    padding: 1rem 3rem;
-    font-weight: 900;
+    padding: 0.8rem 2rem;
+    font-weight: 900px;
     cursor: pointer;
     margin-bottom: 30px;
-    margin-top: 13px;
-    margin-left: 250px;
+    margin-top: 0.7px;
+    margin-left: 0px;
+    align-items: flex-end;
+    font-weight: 700;
     
 }
 
 .conversar {
-    font-size: 60px;
-    height: 210px;
-    width: 600px;
+    gap: 15px;
+    font-size: 50px;
+    height: 270px;
+    width: 700px;
     background-color: #d3c9c92a;
-    border-radius: 40px;
+    border-radius: 45px;
     font-weight: 900;
     color: var(--branco);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 10px;
-    margin-bottom: 250px;
+    margin-bottom: 270px;
+    padding: 55px;
+}
+.conversar a  {
+    width: 1px;
 }
