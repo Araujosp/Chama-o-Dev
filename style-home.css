@@ -578,7 +578,6 @@ body {
     font-size: 50px;
 }
 
-<<<<<<< HEAD
 
 .alinhar{
     display: flex;
@@ -611,7 +610,7 @@ body {
     min-width:80px;
     max-width:200px;
 }
-=======
+
 .title2 {
     font-family: var(--font-poppins);
     font-size: 15px;
@@ -634,16 +633,34 @@ body {
     justify-content: flex-end;
 }
 
-<<<<<<< HEAD
->>>>>>> 0c16233dea5a08d7931a49c7dbc0fa82224568a3
-=======
-.conversar {
-    font-size: 100px;
-    color: var(--branco);
-}
 
 .btn_especialista {
-    font-size: 50px;
-    border-radius: 10px;
+    display: flex;
+    font-weight: 300px;
+    font-size: 20px;
+    border-radius: 60px;
+    background: #ffffff;
+    color: #0d1b2a;
+    padding: 1rem 3rem;
+    font-weight: 900;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 13px;
+    margin-left: 250px;
+    
 }
->>>>>>> d0469a9d424aafae001a00fc0c5d32cd68dcd22c
+
+.conversar {
+    font-size: 60px;
+    height: 210px;
+    width: 600px;
+    background-color: #d3c9c92a;
+    border-radius: 40px;
+    font-weight: 900;
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 250px;
+}
