@@ -454,7 +454,7 @@ body {
     margin-top: 1rem;
     color: #F5F5F5;
     position: relative;
-    left: 170px;
+    left: 400px;
 }
 
 #footer_social_media2 .footer-link {
@@ -544,7 +544,7 @@ body {
     width: 260px;
     position: relative;
     left: 180px;
-    top: 50px;
+    top: 30px;
 }
 
 .content2{
@@ -578,6 +578,7 @@ body {
     font-size: 50px;
 }
 
+<<<<<<< HEAD
 
 .alinhar{
     display: flex;
@@ -610,3 +611,26 @@ body {
     min-width:80px;
     max-width:200px;
 }
+=======
+.title2 {
+    font-family: var(--font-poppins);
+    font-size: 15px;
+    color: #4cb1dd;
+    text-transform: uppercase;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+#img5 {
+    width: 100%;
+    height: 90vh;
+    background-image:url("IMG/conversaDEV.png"); 
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+>>>>>>> 0c16233dea5a08d7931a49c7dbc0fa82224568a3

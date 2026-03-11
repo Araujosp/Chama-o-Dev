@@ -45,10 +45,52 @@ body {
     color: var(--branco);
 }
 
+main {
+    width: 100%;
+}
+
 .menu_horizontal {
+    padding: 35px;
     height: 12%;
     background: var(--cor-ciano-claro);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.area_conteudo {
+    margin: 15px;
+}
+
+.icone_usuario {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background: var(--cor-ciano-claro);
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.perfil_usuario {
+    margin: 10px;
+    padding: 30px;
+    background: var(--cinza-claro);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.perfil_usuario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cargo_usuario {
+    font-weight: 300;
+}
+
