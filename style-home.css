@@ -192,7 +192,6 @@ body {
     justify-content: center;
     min-width: 240px;
     transition: 0.3s ease;
-    
 }
 
 .btn:hover {
@@ -284,8 +283,6 @@ body {
     font-size: 30px;
     color: #4cb1dd;
 }
-
-
 
 .card-container p{
     font-size:1.3rem;

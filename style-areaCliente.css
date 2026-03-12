@@ -73,6 +73,20 @@ nav {
     height: 45px;
 }
 
+.btn_adicionar_suporte {
+    display: flex;
+    justify-content:right;
+}
+
+.btn_adicionar_suporte button{
+    border-radius: 15px;
+}
+
+.btn_adicionar_suporte a {
+    color: #0A2647;
+    font-weight: 700;
+}
+
 a {
     padding: 8px;
     height: 60px;

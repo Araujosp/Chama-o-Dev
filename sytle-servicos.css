@@ -46,13 +46,9 @@ body{
     width: 100%;
     padding: 25px;
     padding-right: 35%;
-    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    top: 0;
-    left: 0;
-    right: 0;
 }
 
 
@@ -132,6 +128,106 @@ textarea{
     resize:none;
 }
 
+.servicos {
+    margin: 100px 10px;
+}
+.cards_servicos {
+    height: 400px;
+    width: 400px;
+    background: var(--azul-escuro);
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-family: var(--font-poppins);
+    font-weight: 800;
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.cards_servicos:hover {
+    transform:translateY(-7px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+}
+
+.frase_servicos {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cards_servicos_image1 {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,2)), url(IMG/chama\ o\ dev1.png);
+    background-size: cover;
+}
+
+.cards_servicos_image2 {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(IMG/dev\ \(2\).png);
+    background-size: cover;
+}
+
+.cards_servicos_image3 {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(IMG/dev\ \(3\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.cards_servicos_image4 {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(IMG/dev\ \(4\).png);
+    background-size: cover;
+}
+
+.cards_servicos_image5 {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(IMG/dev.png);
+    background-size: cover;
+}
+
+.botao_servicos {
+    margin: 5px;
+    height: 50px;
+    width: 120px;
+    background: var(--azul-claro);
+    border-radius: 10px;
+    color: var(--branco);
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.botao_servicos:hover {
+    background: var(--azul-escuro);
+    cursor: pointer;
+}
+
+.conjunto_card_servicos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.titulo_linha_servicos {
+    margin: 25px 0px 25px 5%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--branco);
+}
+
+.linha_titulo {
+    width: 700px;
+    height: 3px;
+    background: var(--branco);
+    border-radius: 5px;
+}
+
+.titulo_servicos {
+    font-size: 55px;
+}
+
 .orcamento-form input:focus,
 .orcamento-form textarea:focus{
     outline:2px solid var(--main-color);
@@ -151,4 +247,96 @@ textarea{
 .btn input:hover{
     background:var(--cinza-claro);
     color:var(--main-color);
+}
+
+
+.logo {
+    height: 80px;
+    width: 190px;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #4cb1dd;
+    border-bottom: 0.1rem solid var(--cinza-claro);
+    padding-bottom: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.container-main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 900px;
+    max-width:1800px;
+    background-color:transparent;
+    margin: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap:70px;
+    border-radius:40px;
+    box-shadow: 0px 10px 20px #000;
+}
+
+.container-img-header{
+    height: 120px;
+    width: 100%;
+    overflow: unset;
+}
+
+.container-img-header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card{
+    width: 270px;
+    height: 300px;
+    background: linear-gradient(180deg, #3d5a69 0%, #21303b 100%);
+    border-radius: 30px;
+    position: relative;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.card-img{
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.card-content{
+    padding: 20px;
+    color: white;
+}
+
+.card-content h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-content p{
+    font-size: 13px;
+    line-height:1.6;
+}
+
+
+#footer_content {
+
 }
