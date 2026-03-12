@@ -57,9 +57,6 @@ body{
     width: 190px;
 }
 
-.navbar {
-}
-
 .navbar a {
     margin: 0 1rem;
     font-size: 1.4rem;
@@ -331,9 +328,4 @@ textarea{
 .card-content p{
     font-size: 13px;
     line-height:1.6;
-}
-
-
-#footer_content {
-
 }

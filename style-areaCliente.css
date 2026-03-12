@@ -97,7 +97,7 @@ a {
     gap: 10px;
 }
 
-a:hover {
+nav a:hover {
     background: var(--cor-ciano-claro);
 }
 
@@ -530,4 +530,124 @@ main {
 .balao_suporte {
     height: 25px;
     width: 25px;
+}
+
+.suporte_solicitacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solicitacao_suporte {
+    padding: 25px;
+    width: 800px;
+    height: 500px;
+    border: 1px solid var(--azul-escuro);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo_subtitulo h1{
+    font-size: 32px;
+}
+
+.titulo_subtitulo h2 {
+    font-weight: 300;
+}
+
+.campo_solicitacao {
+    display: flex;
+    gap: 8px;
+}
+
+.suporte_content {
+    list-style-type: none;
+}
+
+.campo_solicitacao form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo_solicitacao form input, select {
+    padding-left: 5px;
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--cor-fundo-preto);
+    font-size: 15px;
+}
+
+.campo_solicitacao form label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.campo_form_suporte {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.solicitacao_suporte .btn_suporte {
+    align-self: flex-end;
+    gap: 12px;
+}
+
+.descricao_suporte_solicitacao {
+    width: 730px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.descricao_suporte_solicitacao input {
+    padding: 5px;
+    height: 150px;
+    font-size: 15px;
+    border: 1px solid var(--cor-fundo-preto);
+    border-radius: 8px;
+    display: flex;
+}
+
+.btn_suporte {
+    display: flex;
+}
+
+.btn_suporte a {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn_suporte a:hover {
+    cursor: pointer;
+}
+
+.icon_solicitacao_suporte {
+    height: 20px;
+    width: 20px;
+}
+
+.voltar_solicitacao {
+    height: 42px;
+    width: 100px;
+    border: 1px solid var(--cor-fundo-preto);
+    color: var(--cor-fundo-preto);
+}
+
+.enviar_ticket {
+    height: 42px;
+    width: 135px;
+    background: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.resposta_suporte {
+    width: 590px;
+    height: 150px;
 }
