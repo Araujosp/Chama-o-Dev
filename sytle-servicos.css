@@ -41,17 +41,20 @@ body{
     align-items:center;
 }
 
+
 .menu {
+    width: 100%;
+    padding: 25px;
+    padding-right: 35%;
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99;
-    border-bottom: var(--border);
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
 }
+
 
 .logo-navbar {
     height: 80px;

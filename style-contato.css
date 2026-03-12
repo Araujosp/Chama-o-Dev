@@ -29,14 +29,18 @@ body{
 }
 
 
-.menu{
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    display:flex;
-    justify-content:space-between;
-    padding:25px;
+
+.menu {
+    width: 100%;
+    padding: 25px;
+    padding-right: 35%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo-navbar{
@@ -69,6 +73,7 @@ body{
     width:750px;
     border-radius:20px;
     box-shadow:0 0 50px var(--main-color);
+    
 }
 
 
