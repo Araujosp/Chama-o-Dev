@@ -79,6 +79,7 @@ body {
     animation:slide 13s linear infinite;
 }
 
+
 .logo {
     height: 80px;
     width: 190px;
@@ -87,11 +88,16 @@ body {
 .menu {
     width: 100%;
     padding: 25px;
-    padding-right: 35%;
+    padding-right: 30px;
     position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.icone_login {
+    height: 35px;
+    width: 35px;
 }
 
 .navbar a {
