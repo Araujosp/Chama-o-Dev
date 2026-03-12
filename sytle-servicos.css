@@ -58,9 +58,6 @@ body{
 }
 
 .navbar {
-position: absolute;
-left: 50%;
-transform: translateX(-50%);
 }
 
 .navbar a {
