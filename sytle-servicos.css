@@ -300,6 +300,14 @@ textarea{
     position: relative;
     padding-top: 80px;
     text-align: center;
+    transition: 1.0s;
+    opacity: 0.7;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 10px 25px rgba(7, 134, 143, 0.2);
+    opacity: 1;
 }
 
 .card-img{
