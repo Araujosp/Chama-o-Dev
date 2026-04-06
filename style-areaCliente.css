@@ -63,6 +63,10 @@ nav {
     height: 80px;
 }
 
+.logotipo_menu_lateral:hover{
+    cursor: pointer;
+}
+
 .linha_menu_lateral {
     height: 1px;
     width: 100%;

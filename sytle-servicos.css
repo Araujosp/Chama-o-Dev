@@ -33,7 +33,7 @@
 }
 
 body{
-    background: linear-gradient(135deg,#000, #0A2647);
+    background:linear-gradient(#000,#4cb1dd);
     height:100%;
     display:flex;
     flex-direction: column;
